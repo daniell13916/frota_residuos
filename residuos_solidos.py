@@ -144,7 +144,7 @@ if resultados_setores:
 
     # Calcula o valor do lixo gerado (soma das quantidades de lixo de cada setor)
     valor_lixo_gerado = sum(quantidades_lixo_setores)
-    st.info(f"O valor total de lixo gerado por todos os setores é: {valor_lixo_gerado} toneladas.")
+    st.info(f"O valor total de lixo gerado por todos os setores é: {valor_lixo_gerado} Kg.")
 
     # Calcula o maior Ns ajustado entre os setores
     maior_Ns_ajustado = max(resultados_setores)
